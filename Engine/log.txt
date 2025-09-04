@@ -1,0 +1,124 @@
+Command received: h
+Response sent: Available commands:
+Response sent: ------------------------------------------------
+Response sent: uci            - Display engine identification and options.
+Response sent: isready        - Confirm engine is ready to process commands.
+Response sent: ucinewgame     - Notify engine of a new game start.
+Response sent: position commands:
+Response sent:    position startpos               - Set up the board with the starting position.
+Response sent:    position startpos moves <moves> - Set up the board with the starting position and apply a sequence of moves.
+Response sent:    position <fen>                  - Set up the board with a specific FEN string.
+Response sent:    position <fen> moves <moves>    - Set up the board with a specific FEN string and apply a sequence of moves.
+Response sent: go commands:
+Response sent:    go movetime [time in ms]                                                               - Calculate the best move based on current position.
+Response sent:    go wtime [time in ms] btime [time in ms]                                               - Calculate the best move based on current position.
+Response sent:    go wtime [time in ms] btime [time in ms] winc [increment in ms] binc [increment in ms] - Calculate the best move based on current position.
+Response sent: perft commands:
+Response sent:    perft [depth]    - Run a perft test at a given depth.
+Response sent:    perft -v [depth] - Run a verbose perft test at a given depth.
+Response sent: quit           - Exit the engine gracefully.
+Response sent: d              - Display the current board state
+Response sent: cls            - Clear the screen.
+Response sent: ------------------------------------------------
+Command received: quit
+CLOSING UCI bot
+Command received: h
+Response sent: Available commands:
+Response sent: ------------------------------------------------
+Response sent: uci            - Display engine identification and options.
+Response sent: isready        - Confirm engine is ready to process commands.
+Response sent: ucinewgame     - Notify engine of a new game start.
+Response sent: position commands:
+Response sent:    position startpos               - Set up the board with the starting position.
+Response sent:    position startpos moves <moves> - Set up the board with the starting position and apply a sequence of moves.
+Response sent:    position <fen>                  - Set up the board with a specific FEN string.
+Response sent:    position <fen> moves <moves>    - Set up the board with a specific FEN string and apply a sequence of moves.
+Response sent: go commands:
+Response sent:    go movetime [time in ms]                                                               - Calculate the best move based on current position.
+Response sent:    go wtime [time in ms] btime [time in ms]                                               - Calculate the best move based on current position.
+Response sent:    go wtime [time in ms] btime [time in ms] winc [increment in ms] binc [increment in ms] - Calculate the best move based on current position.
+Response sent: perft commands:
+Response sent:    perft [depth]    - Run a perft test at a given depth.
+Response sent:    perft -v [depth] - Run a verbose perft test at a given depth.
+Response sent: quit           - Exit the engine gracefully.
+Response sent: d              - Display the current board state
+Response sent: cls            - Clear the screen.
+Response sent: ------------------------------------------------
+Command received: perft -v
+Response sent: Running perft with depth 1 (verbose mode)
+Command received: perft
+Response sent: Running perft with depth 1
+Response sent: nodes: 20 nps: 20000 ms: 0
+Command received: perft -v
+Response sent: Running perft with depth 1 (verbose mode)
+Command received: perft
+Response sent: Running perft with depth 1
+Response sent: nodes: 20 nps: 20000 ms: 0
+Command received: perft -v
+Response sent: Running perft with depth 1 (verbose mode)
+Response sent: nodes: 20
+Command received: 
+Command received: eval
+Response sent: info score cp -0.199609
+Command received: eval depth 2000
+Command received: 
+Command received: quit
+CLOSING UCI bot
+Command received: eval
+Response sent: info score cp 0.285000
+Command received: eval -d 6
+Response sent: info score cp 0.285000
+Command received: eval -d6
+Response sent: info score cp 0.285000
+Command received: 
+Command received: eavl
+Response sent: Unrecognised command: eavl | eavl
+Command received: eval
+Response sent: info score cp 0.285000
+Command received: eval -d 6
+Response sent: info score cp -0.165000
+Command received: position fen 6R1/5p2/4q2p/8/6Pk/8/6PK/3r4 w - - 0 1
+Command received: eval
+Response sent: info score cp -2.790000
+Command received: eval -d 6
+Response sent: info score cp 49995.000000
+Command received: position fen 6R1/5p2/4q2p/8/6Pk/8/6PK/3r4 w - - 0 1
+Command received: eval -d 6
+Response sent: info score mate -5.000000
+Command received: 
+Command received: position fen 6R1/5p2/4q2p/8/6Pk/8/6PK/3r4 w - - 0 1
+Command received: eval -d 6
+Response sent: info score mate 5.000000
+Command received: 
+Command received: position fen 6R1/5p2/4q2p/8/6Pk/8/6PK/3r4 w - - 0 1
+Command received: eval
+Response sent: info score cp -2
+Command received: eval -d 6
+Response sent: info score mate 1
+Command received: eval -d 2
+Response sent: info score cp 9999
+Command received: 
+Command received: position fen 6R1/5p2/4q2p/8/6Pk/8/6PK/3r4 w - - 0 1
+Command received: eval -d 2
+Response sent: info score #1
+Command received: position fen 8/4pb1k/3p2p1/3P4/1p1BN1P1/5P2/PPP5/1K1R4 w - - 0 1
+Command received: eval -d 2
+Response sent: info score cp 15
+Command received: eval -d 3
+Response sent: info score cp 15
+Command received: eval -d 4
+Response sent: info score #3
+Command received: eval -d 6
+Response sent: info score #3
+Command received: quit
+CLOSING UCI bot
+Command received: q
+Response sent: Unrecognised command: q | q
+CLOSING UCI bot
+Command received: q
+Response sent: Unrecognised command: q | q
+CLOSING UCI bot
+Command received: q
+CLOSING UCI bot
+Command received: exit
+CLOSING UCI bot
