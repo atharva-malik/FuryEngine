@@ -10,4 +10,4 @@ To host the engine on Lichess:
 This hosting method is recommended for those who want to play against other players on Lichess, but you can also create your own hosting server for Lichess. To do so, follow the instructions on the Lichess API documentation [here](https://lichess.org/api).
 
 ### Local
-You can run the engine locally using the command line interface (CLI) or by using a graphical user interface (GUI) such as [Arena](http://www.playwitharena.com/) or [Cutechess](https://cutechess.com/). It supports basic UCI commands and can be used with any UCI-compatible GUI. For more information on how to use the CLI, check out the [CLI documentation](cli.md).
+You can run the engine locally using the command line interface (CLI) or by using a graphical user interface (GUI) such as [Arena](http://www.playwitharena.com/) or [Cutechess](https://cutechess.com/). It supports basic UCI commands and can be used with any UCI-compatible GUI.

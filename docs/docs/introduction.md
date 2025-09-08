@@ -1,5 +1,5 @@
 # Fury Engine
-To use this engine, you need to either host it on Lichess or run it locally. To run it locally, you need a GUI that supports UCI (Universal Chess Interface). For more information, check out the [Quick Start](/quickstart.md) page.
+To use this engine, you need to either host it on Lichess or run it locally. To run it locally, you need a GUI that supports UCI (Universal Chess Interface). For more information, check out the [Quick Start](/quickstart/quickstart.md) page.
 
 ## Hierarchy
 This bot has been separated into a main `bot.h` header file and multiple source files as shown below. Each file in the folder is responsible for a specific part of the engine. The `bot.h` file contains the main class and the main function, while the other files contain the implementation of various features. You can find the following folder structure under `Engine\includes`:
