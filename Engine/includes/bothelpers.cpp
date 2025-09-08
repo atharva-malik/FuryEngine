@@ -193,7 +193,7 @@ int Bot::get_random_index(const std::vector<std::string>& vec){
     /**
      *  @brief Selects a random index from a given vector.
      *
-     ** Used for randomized behavior such as picking between equally viable moves.
+     ** Used for randomised behavior such as picking between equally viable moves.
      ** Logs a warning and returns 0 if the input vector is empty.
      *
      *  @param vec  Input vector of strings.

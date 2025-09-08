@@ -1,0 +1,7 @@
+# NNUE
+
+NNUE (Efficiently Updatable Neural Network) is a neural network architecture designed for efficient evaluation of chess positions. It was originally developed for shogi (Japanese chess) but has been adapted for chess engines as well. The key idea behind NNUE is to use a neural network to evaluate the position based on a set of features derived from the board state, allowing for fast and accurate evaluations. 
+
+As I have already detailed the NNUE probe library in the [3rd party](3rd-party.html#nnue-prober) section, I will not repeat myself here. Instead, I will just give a brief overview of how I trained my one.
+
+To train the NNUE network, I used a dataset of chess positions (thanks to [Lichess](https://lichess.org/) for providing a free database of games) and the evaluations from Stockfish 15.1 as the "expected" evaluation. I used the [nnue-pytorch](https://github.com/official-stockfish/nnue-pytorch), albeit an older version (the library is not compatible with the newer versions of the NNUEs that the library produces), to train the network. It took around 72 hours per iteration on my laptop's GPU (NVIDIA GeForce RTX 3050 Ti Laptop GPU). It took 4 iterations to get a network that I was satisfied with. The final network file is appropriately named `v4.nnue` and is placed under `includes/NNUE/`.

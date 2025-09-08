@@ -28,7 +28,7 @@ export default defineConfig({
         {
           text: 'Other Links',
           items: [
-            { text: 'Dev Log', link: '/devlog/test' }, //todo fix this routing
+            { text: 'Dev Log', link: '/devlog/planning' },
             { text: 'Documentation', link: '/docs/introduction' }
           ]
         }
@@ -38,9 +38,15 @@ export default defineConfig({
         {
           text: 'Dev Log',
           items: [
-            { text: 'Quickstart', link: '/quickstart' },
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            { text: 'Planning', link: '/devlog/planning' },
+            { text: '- Sprint 1', link: '/devlog/sprint1' },
+            { text: '- Sprint 2', link: '/devlog/sprint2' },
+            { text: '- Sprint 3', link: '/devlog/sprint3' },
+            { text: '- Sprint 4', link: '/devlog/sprint4' },
+            { text: '- Sprint 5', link: '/devlog/sprint5' },
+            { text: '- Sprint 6', link: '/devlog/sprint6' },
+            { text: '- Sprint 7', link: '/devlog/sprint7' },
+            { text: '- Sprint 8', link: '/devlog/sprint8' },
           ]
         },
         {
@@ -63,14 +69,27 @@ export default defineConfig({
         {
           text: 'Files',
           items: [
-            { text: 'main.cpp', link: '/docs/main' }, //todo fix this routing
-            { text: 'includes/', link: '/docs/introduction' }
+            { text: 'main.cpp', link: '/docs/main' },
+            { text: '└─ 3rd party', link: '/docs/includes/3rd-party' },
+            { text: '└─ OpeningBook/book.json', link: '/docs/includes/book.json' },
+            { text: '└─ bot.cpp', link: '/docs/includes/bot.cpp' },
+            { text: '└─ bot.h', link: '/docs/includes/bot.h' },
+            { text: '└─ bothelpers', link: '/docs/includes/bothelpers' },
+            { text: '└─ constructors', link: '/docs/includes/constructors' },
+            { text: '└─ evaluate', link: '/docs/includes/evaluate' },
+            { text: '└─ findmove', link: '/docs/includes/findmove' },
+            { text: '└─ helpers', link: '/docs/includes/helpers' },
+            { text: '└─ nnue_eval', link: '/docs/includes/nnue_eval' },
+            { text: '└─ NNUE', link: '/docs/includes/nnue' },
+            { text: '└─ openings', link: '/docs/includes/openings' },
+            { text: '└─ search', link: '/docs/includes/search' },
+            { text: '└─ UCI Bot', link: '/docs/includes/ucibot' },
           ]
         },
         {
           text: 'Other Links',
           items: [
-            { text: 'Dev Log', link: '/devlog/test' }, //todo fix this routing
+            { text: 'Dev Log', link: '/devlog/planning' },
             { text: 'Documentation', link: '/docs/introduction' }
           ]
         }

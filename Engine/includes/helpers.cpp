@@ -32,8 +32,8 @@ namespace helpers
      * @brief A collection of utility functions that support UCI command parsing, string manipulation,
      *        and communication for the chess engine.
      *
-     ** The helpers namespace modularizes auxiliary tasks such as parsing engine options,
-     ** sanitizing input, formatting UCI-compliant responses, and extracting data from command strings.
+     ** The helpers namespace modularises auxiliary tasks such as parsing engine options,
+     ** sanitising input, formatting UCI-compliant responses, and extracting data from command strings.
      ** These functions simplify engine logic and improve separation of concerns.
     */
     
@@ -62,11 +62,10 @@ namespace helpers
 
     std::string lower(std::string s){
         /**
-         *  @brief Splits a string into substrings based on the 'space' character
-         *         as a delimiter.
+         *  @brief Converts a string to lowercase.
          *
-         *  @param s The string to split.
-         *  @return A vector of substrings resulting from the split operation.
+         *  @param s The string to 'lower'.
+         *  @return A string that is fully lowercase.
         */
         std::transform(s.begin(), s.end(), s.begin(), [](unsigned char c){ return std::tolower(c); });
         return s;

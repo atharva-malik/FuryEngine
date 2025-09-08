@@ -12,12 +12,12 @@ hero:
       link: /quickstart/quickstart.md
     - theme: alt
       text: Dev Log
-      link: /devlog/test.md #todo FIX THIS ROUTING
+      link: /devlog/planning.md
     - theme: alt
       text: Documentation
       link: /docs/introduction.md
   image:
-    src: /static/sf.png
+    src: /static/Logo.svg
     alt: VitePress
 
 

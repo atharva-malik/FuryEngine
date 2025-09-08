@@ -1,0 +1,2 @@
+# book.json
+This is an opening book that I wrote a simple script to convert from [Sebastian Lague's](https://github.com/SebLague/Chess-Coding-Adventure/blob/Chess-V2-UCI/Chess-Coding-Adventure/resources/Book.txt) (amazing guy btw) chess book. It was initially in text format, but I converted it to JSON for easier parsing. It contains 1000+ opening positions and is 80000+ lines long (so I won't paste it here). You can find it in the [includes](https://github.com/atharva-malik/FuryEngine/blob/master/Engine/includes/OpeningBook/book.json) folder.
